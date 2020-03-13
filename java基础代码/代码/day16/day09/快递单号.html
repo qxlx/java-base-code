@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>快递单号</title>
+<style type="text/css">
+body{
+	background-color:#666;
+	height:20px;
+	}
+#title{
+	height:30px;}
+#main1{
+	height:110px;
+	line-height:30px;
+	width:600px;
+	}
+#main2{
+	height:170px;
+	line-height:30px;
+	width:600px;
+	}
+#main3{
+	height:140px;
+	line-height:30px;
+	width:600px;
+	}
+li{
+	list-style:none;}
+</style>
+</head>
+
+<body>
+<div id="title">
+  <div align="left"> 增加快递信息</div>
+      
+<div id="main1">
+<fieldset>
+<legend>发货单</legend>
+<li>发货人姓名
+  <input name="input" type="text" />
+发货人地址
+<input name="" type="text" /></li>
+<li>发货人电话
+  <label for="textfield"></label>
+  <input type="text" name="textfield" id="textfield" />
+  发货人邮编
+  <label for="textfield2"></label>
+  <input type="text" name="textfield2" id="textfield2" />
+</li>
+</fieldset>
+</div><br/>
+<div id="main2">
+<fieldset>
+<legend>收货单</legend>
+<li>收货人姓名
+  <label for="textfield3"></label>
+  <input type="text" name="textfield3" id="textfield3" />
+  收货人地址
+  <label for="textfield4"></label>
+  <input type="text" name="textfield4" id="textfield4" />
+</li>
+<li>收货人电话
+  <label for="textfield5"></label>
+  <input type="text" name="textfield5" id="textfield5" />
+  收货人邮编
+  <label for="textfield6"></label>
+  <input type="text" name="textfield6" id="textfield6" />
+</li>
+<li>地区
+  <label for="select"></label>
+  <select name="location" id="select">
+  		<option value="北京">北京</option>
+   		<option value="天津">天津</option>
+    	<option value="河北">河北</option>
+   	  <option value="山西">山西</option>
+      <option value="湖南">湖南</option>
+  </select>
+  包装:
+  <input type="radio" name="radio" id="radio" value="radio" />
+  <label for="radio"></label>
+  纸箱
+  <input type="radio" name="radio" id="radio2" value="radio2" />
+  <label for="radio2"></label>
+  木箱
+  <input type="radio" name="radio" id="radio3" value="radio3" />
+  <label for="radio3"></label>
+  快递袋
+  <input type="radio" name="radio" id="radio4" value="radio4" />
+  <label for="radio4"></label>
+  其他</li>
+<li>付款方式 :
+  <input type="radio" name="radio5" id="radio5" value="radio5" />
+  <label for="radio5"></label>
+  现金
+  <input type="radio" name="radio5" id="radio6" value="radio6" />
+  <label for="radio6"></label>
+  支付宝
+  <input type="radio" name="radio5" id="radio7" value="radio7" />
+  <label for="radio7"></label>
+  网银
+  <input type="radio" name="radio5" id="radio8" value="radio8" />
+  <label for="radio8"></label>
+  ATM</li>
+  </fieldset>
+</div><br/>
+<div id="main3">
+<fieldset>
+<legend>货物信息</legend>
+  <li>货物名称
+    <label for="textfield7"></label>
+    <input name="textfield9" type="text" id="textfield9" maxlength="20"  width=400/>
+  </li>
+  <li>数量
+    <label for="textfield8"></label>
+    <input type="text" name="textfield8" id="textfield8" width=80/>
+重量
+<label for="textfield9"></label>
+    <input type="text" name="textfield7" id="textfield7" width=80/>
+    发货时间
+    <label for="textfield10"></label>
+    <label for="textfield10"></label>
+    <input type="text" name="textfield10" id="textfield10" width=140 />
+  </li>
+  </fieldset>
+</div>
+<p>
+  <label>
+    <input type="submit" name="RadioGroup1" value="确定" id="RadioGroup1_0" />
+    </label>
+  <label>
+    <input type="reset" name="RadioGroup1" value="取消" id="RadioGroup1_0" />
+    </label>
+  <br />
+</p>
+</body>
+</html>

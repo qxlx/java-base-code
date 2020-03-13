@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>一款灰色风格纯CSS横向下拉菜单丨myjs.jz123.Cn</title>
+<style type="text/css">
+.menu {
+font-family: arial, sans-serif;
+width:750px;
+margin:0;
+margin:10px 0;
+}
+
+.menu ul {
+padding:0;
+margin:0;
+list-style-type: none;
+}
+
+.menu ul li {
+float:left;
+position:relative;
+}
+
+.menu ul li a, .menu ul li a:visited {
+display:block;
+text-align:center;
+text-decoration:none;
+width:104px;
+height:30px;
+color:#000;
+border:1px solid #fff;
+border-width:1px 1px 0 0;
+background:#c9c9a7;
+line-height:30px;
+font-size:11px;
+}
+
+.menu ul li ul {
+display: none;
+}
+
+
+.menu ul li:hover a {
+color:#fff;
+background:#b3ab79;
+}
+
+.menu ul li:hover ul {
+display:block;
+position:absolute;
+top:31px;
+left:0;
+width:105px;
+}
+
+.menu ul li:hover ul li a {
+display:block;
+background:#faeec7;
+color:#000;
+}
+
+.menu ul li:hover ul li a:hover {
+background:#dfc184;
+color:#000;
+}
+</style>
+</head>
+<body>
+全部商品分类
+<div class="menu">
+<ul>
+<li><a class="hide" href="#">电子书刊</a>
+<ul>
+<li><a href="#">电子书</a></li>
+<li><a href="#">网络原创</a></li>
+<li><a href="#">数字杂志</a></li>
+<li><a href="#">多媒体图书</a></li>
+</ul>
+</li>
+<li><a class="hide" href="#">音像</a>
+<ul>
+<li><a href="#">音乐</a></li>
+<li><a href="#">影视</a></li>
+<li><a href="#">教育</a></li>
+<li><a href="#">音像</a></li>
+</ul>
+</li>
+<li><a class="hide" href="#">英文原版</a>
+<ul>
+<li><a href="#">英文原版</a></li>
+<li><a href="#">少儿</a></li>
+<li><a href="#">商业投资</a></li>
+<li><a href="#">英语学习与考试</a></li>
+<li><a href="#">小说</a></li>
+</ul>
+</li>
+<li><a class="hide" href="#">文艺</a>
+
+<ul>
+<li><a href="#">小说</a></li>
+<li><a href="#">文学</a></li>
+<li><a href="#">青春文学</a></li>
+<li><a href="#">传记</a></li>
+<li><a href="#">艺术</a></li>
+</ul>
+</li>
+<li><a class="hide" href="#">少儿 </a>
+<ul>
+<li><a href="#">少儿</a></li>
+<li><a href="#">0-2岁</a></li>
+<li><a href="#">3-6岁</a></li>
+<li><a href="#">7-10岁</a></li>
+<li><a href="#">11-14岁</a></li>
+</ul>
+</li>
+<li><a class="hide" href="#">人文社科</a>
+<ul>
+<li><a href="#">历史</a></li>
+<li><a href="#">哲学</a></li>
+<li><a href="#">国学</a></li>
+<li><a href="#">法律</a></li>
+<li><a href="#">宗教</a></li>
+<li><a href="#">心理学</a></li>
+<li><a href="#">文化</a></li>
+<li><a href="#">社会科学</a></li>
+</ul>
+</li>
+<li><a class="hide" href="#">经管励志</a>
+<ul>
+<li><a href="#">经济</a></li>
+<li><a href="#">金融与投资</a></li>
+<li><a href="#">管理</a></li>
+<li><a href="#">励志与成功</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</body>
+</html>

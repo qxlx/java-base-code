@@ -1,0 +1,29 @@
+package day01;
+
+public class Instrument {
+	private String name;
+	Instrument(String name){
+		this.name = name;
+	}
+	void display(){
+		System.out.println("ÀÖÆ÷µ¯×à");
+	}
+}
+class Piano extends Instrument{
+	Piano(String name){
+		super(name);
+	}
+	void pDisplay(){
+		super.display();
+		System.out.println("¸ÖÇÙµ¯×à");
+	}
+}
+class Violio extends Instrument{
+	Violio(String name){
+		super(name);
+	}
+	void vDisplay(){
+		super.display();
+		System.out.println("Ð¡¸ÖÇÙµ¯×à");
+	}
+}

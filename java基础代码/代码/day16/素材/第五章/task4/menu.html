@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>纯CSS菜单</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+li{ 
+	list-style:none; 
+	text-align:center;
+	line-height:24px; 
+}
+a{ 
+	text-decoration:none; 
+	color:#333333;
+	font-size:12px; 
+	line-height:24px;  
+	display:block; 
+}
+.nav ul li{
+	width:120px; 
+	float:left; 
+	border:1px #333 dashed; 
+	background:#FFD2D2;
+}
+.nav ul li ul{
+	display:none;
+}
+.nav ul li a:hover{
+	color:#fff; 
+	background-color:#BB0916;
+}
+.nav ul li:hover ul,.nav ul li a:hover ul {
+	display:block; 
+	width:120px; 
+	height:24px;
+}
+.nav ul li ul li { 
+	background-color:#FEE;  
+	width:120px;
+}
+.nav ul ul li a:hover{ 
+background:#F7F7B9; 
+color:#666666;
+}
+</style>
+</head>
+<body>
+<div class="nav">
+  <ul>
+    <li><a href="#">首页</a>
+      <ul>
+        <li><a href="#">最新更新</a></li>
+        <li><a href="#">下载排行</a></li>
+      </ul>
+    </li>
+    <li><a href="#">企业新闻</a>
+      <ul>
+        <li><a href="#">企业介绍</a></li>
+        <li><a href="#">最新动态</a></li>
+      </ul>
+    </li>
+    <li><a href="#">产品信息</a>
+      <ul>
+        <li><a href="#">最新产品</a></li>
+        <li><a href="#">产品列表</a></li>
+      </ul>
+    </li>
+    <li><a href="#">特价促销</a>
+      <ul>
+        <li><a href="#">促销</a></li>
+        <li><a href="#">最新推荐</a></li>
+        <li><a href="#">产品列表</a></li>
+      </ul>
+    </li>
+    <li><a href="#">联系我们</a>
+      <ul>
+        <li><a href="#">公司信息</a></li>
+        <li><a href="#">联系我们</a></li>
+        <li><a href="#">公司地图</a></li>
+      </ul>
+    </li>
+    <li><a href="#">新手论坛</a>
+      <ul>
+        <li><a href="#">你问我答</a></li>
+        <li><a href="#">网站大学堂</a></li>
+        <li><a href="#">论坛</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</body>
+</html>

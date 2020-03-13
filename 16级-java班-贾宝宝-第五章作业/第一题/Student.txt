@@ -1,0 +1,36 @@
+package testing;
+
+public class Student4 {
+		private int sno;
+		private int classNum;
+		private String sex;
+		private int age;
+		String name;
+		public void setSno(int sno1){
+			sno = sno1;
+		}
+		public int getSno(){
+			return sno;
+		}
+		public void setClassNum(int classNum1){
+			classNum = classNum1;
+		}
+		public int getClassNum(){
+			return classNum;
+		}
+		public void setSex(String sex1){
+			sex = sex1;
+		}
+		public String getSex(){
+			return sex;
+		}
+		public void setAge(int age1){
+			age = age1;
+		}
+		public int getAge(){
+			return age;
+		}
+		public String toString(){
+			return "姓名"+name+"学号"+sno+"教室"+classNum+"性别"+sex+"年龄"+age;
+		}
+}

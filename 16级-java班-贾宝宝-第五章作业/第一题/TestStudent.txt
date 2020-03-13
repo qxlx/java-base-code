@@ -1,0 +1,15 @@
+package testing;
+import java.util.Scanner;
+/*学生的学号 班级 性别  年龄  以及获得学号  获得姓名  获得年龄 修改年龄的方法*/
+public class Stduent1 {
+	public static void main(String[] args) {
+		System.out.println("显示出一个学生的个人信息");
+		Student4 student = new Student4();
+		student.setSno(123);
+		student.setClassNum(1234);
+		student.setSex("男");
+		student.setAge(20);
+		student.name = "李四";
+		System.out.println(student.toString());
+	}
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表单制作1</title>
+<style type="text/css">
+body{
+	font-family:"黑体";}
+#logo #title #main #about{
+	width:70px;
+	margin:auto;}
+#title{
+	color:#FFF;
+	font-weight:bolder;
+	font-size:16px;
+	background-color:#333;
+	height:40px;
+	line-height:40px;}
+#main li{
+	list-style:none;
+	height:30px;}
+#main fwxy{
+	height:80px;}	
+#main.txt{
+	height:10px;
+	width:150px;
+	border:#6FF 1px solid;
+	background-color:#CCC;}
+#main.btn{
+	border: 1xp #6F6 solid;
+	height:20px;
+	background-color:#9C9;
+	color:#CC9;}
+#about {
+
+	font-size:18px;
+	line-height:40px;
+	text-align:center;
+	background-color:#FFC;}
+#main .txt:hover{
+	background-color:#9F9;}
+</style>
+
+</head>
+
+<body>
+  <div id="logo"><img src="../素材/第七章/task1/image/logo.gif" width="250" height="40" /><img src="../素材/第七章/task1/image/logo.png" width="140" height="35" /></div>
+<div id="title">用户免费注册页面</div>
+    <div id="main"><ul><form action="" method="get">
+          <li><label>会员账号<input name="username" type="text" class="text"/></label></li>
+    <li><label>密码登录</label><input name="psw" type="password" class="text" /></li>
+    <li><label>确认密码</label><input name="psw" type="password" class="text"/></li>
+    <li>
+      <label>会员性别  </label><input name="rdoSex" type="radio" value="0" checked="checked" />
+      <img src="../素材/第七章/task1/image/Male.gif" width="22" height="21" />
+      <label for="textfield"></label>
+      <input type="radio" name="rdoSex" id="radio" value="radio" />
+      <label for="radio"></label>
+      <img src="../素材/第七章/task1/image/Female.gif" width="23" height="21" /></li>
+    <li><label>个人爱好<input name="cbxHobby" type="checkbox" value="sport" /></label>
+      运动
+        <input type="checkbox" name="checkbox" id="checkbox" />
+        聊天
+        <input type="checkbox" name="checkbox2" id="checkbox2" />
+        <label for="checkbox2"></label>
+    游戏</li>
+    <li><label>出生日期</label><select name="select">
+    <option value="1991" select="1991">1991</option>
+    <option value="1992" select="1992">1992</option>
+    <option value="1993" select="1993">1993</option>
+    <option value="1994" select="1994">1994</option>
+    <option value="1995" select="1995">1995</option>
+    <option value="1996" select="1996">1996</option>
+    <option value="1997" select="1997">1997</option>
+    <option value="1998" select="1998">1998</option>
+    <option value="1999"select="1999">1999</option>
+    </select>
+      年<select name="month">
+      <option value="1" select="1">1</option>
+      <option value="2" select="2">2</option>
+      <option value="3" select="3">3</option>
+      <option value="4" select="4">4</option>
+      <option value="5" select="5">5</option>
+      <option value="6" select="6">6</option>
+      <option value="7" select="7">7</option>
+      <option value="8" select="8">8</option>
+      <option value="9" select="9">9</option>
+      <option value="10" select="10">10</option>
+      <option value="11" select="11">11</option>
+      <option value="12" select="12">12</option>
+      </select>月
+      <select name="day">
+      <option value="1" select="1">1</option>
+      <option value="2" select="2">2</option>
+      <option value="3" select="3">3</option>
+      <option value="4" select="4">4</option>
+      <option value="5" select="5">5</option>
+      <option value="6" select="6">6</option>
+      <option value="7" select="7">7</option>
+      <option value="8" select="8">8</option>
+      <option value="9" select="9">9</option>
+      <option value="10" select="10">10</option>
+      <option value="11" select="11">11</option>
+      <option value="12" select="12">12</option>
+      <option value="13" select="13">13</option>
+      <option value="14" select="14">14</option>
+      <option value="15" select="15">15</option>
+      <option value="16" select="16">16</option>
+      <option value="17" select="17">17</option>
+      <option value="18" select="18">18</option>
+      <option value="19" select="19">19</option>
+      <option value="20" select="20">20</option>
+      <option value="21" select="21">21</option>
+      <option value="22" select="22">22</option>
+      <option value="23" select="23">23</option>
+      <option value="24" select="24">24</option>
+      <option value="25" select="25">25</option>
+      <option value="26" select="26">26</option>
+      <option value="27" select="27">27</option>
+      <option value="28" select="28">28</option>
+      <option value="29" select="29">29</option>
+      <option value="30" select="30">30</option>
+      <option value="31" select="7">31</option>
+   
+      </select>日
+    </li>
+    <li><input name="" class="btn" type="submit" value="同意以下条款并提交注册信息"/><input name="" class="btn" type="reset" value="重置"/></li>
+    <li><img src="image/read.gif" alt="" width="35" height="26" />阅读《服务协议淘宝》</li>
+    <li class="fwxy"><textarea name="" cols="45" rows="5">本协议由您与浙江淘宝网络有限公司共同缔结，本协议具有合同效力。本协议中协议双方合称协议方，浙江淘宝网络有限公司在协议中亦称为“淘宝”。本协议中“淘宝平台”指由浙江淘宝网络有限公司运营的网络交易平台，包括淘宝网，域名为 taobao.com；淘宝商城，域名为tmall.com；一淘网，域名为etao.c</textarea></li>
+    </form></ul></div><br/><br/>
+  <div id="about">Copyright © 2003-2011 Taobao.com 版权所有</div>
+</body>
+</html>

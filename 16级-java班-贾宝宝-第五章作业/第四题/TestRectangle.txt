@@ -1,0 +1,15 @@
+/*从键盘输入矩形的长度和宽度调用rectangle的方法,在控制台上输出结果*/
+import java.util.Scanner;
+public class TestRectangle {
+	public static void main(String[] args) {
+		System.out.println("请分别输入矩形的长和宽:");
+		Scanner input = new Scanner(System.in);
+		Rectangle  rectangle = new Rectangle();
+		float m = input.nextFloat();
+		float n = input.nextFloat();
+		rectangle.SetPerimeter(m,n);
+		rectangle.setArea(m, n);
+		System.out.println("该矩形的周长是:"+rectangle.getPerimeter()
+				+"\n"+"面积是:"+rectangle.getArea());
+	}	
+}

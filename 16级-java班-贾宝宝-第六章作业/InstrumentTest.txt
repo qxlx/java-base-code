@@ -1,0 +1,11 @@
+package day01;
+
+public class InstrumentTest {
+		public static void main(String[] args) {
+			Piano p = new Piano("∏÷«Ÿ");
+			p.pDisplay();
+			Violio v = new Violio("–°Ã·«Ÿ");
+			v.vDisplay();
+			
+		}
+}

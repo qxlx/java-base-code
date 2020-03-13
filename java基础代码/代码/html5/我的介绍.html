@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+var msg="你好，欢迎光临本网站，如果你有什么问题，请联系客服。”！"          //跑马灯文字
+var interval=400;                                               //跑动的速度
+var seq=0;
+function txtScroll(){                                             //定义函数
+	document.ScrollForm.txtText.value=msg.substring(seq,msg.length)+" "+msg;
+	seq++;
+	if(seq>msg.length)
+	seq=0;
+	window.setTimeout("txtScroll();",interval);
+}
+</script>
+
+<style  type="text/css">
+body{
+	margin:0px auto;
+	width:1300px;
+	padding:10px;
+	height:1000px;
+	background-color:#FFC;
+	font-family:"微软雅黑";
+	}
+#top #dhl{
+	margin:5px;
+	padding:0px;
+	background-color:#CCC;
+	height:25px;
+	width:1000px;
+	left:500px;
+	text-align:center;}
+#footer{
+	text-align:center;}
+#top #dhl ul li{
+	list-style:none;
+	}
+#top #dhl li{
+	float:left;
+	text-align:center;
+	line-height:27px;
+	}
+#top #dhl li a{
+	display:block;
+	width:100px;
+	color:#FFF;
+	text-decoration:none;}
+#top #dhl li a:hover{
+	background:#0FC;
+	color:#999;}
+#gaoz{
+	width:400px;
+	height:300px;
+	float:left;
+	border:6px #FF6;
+	}
+#denglu{
+	width:380px;
+	height:300px;
+	float:left;}
+#daxue{
+	width:200px;
+	height:300px;
+	float:left;}
+#myhome{
+	width:400px;
+	height:300px;
+	float:left;
+	}
+#software{
+	width:400px;
+	height:300px;
+	float:left;}
+#vedio{
+	width:300px;
+	height:300px;
+	float:left;}
+#goodnews
+{
+	background-color:#CCC;
+	width:1000px;
+	height:25px;
+	line-height:20px;
+	padding-top:5px;
+	color:#3CF;
+	}
+#footer{
+	float:left;
+	width:1000px;
+	height:100px;
+	text-align:center;
+	}
+#gaoz .gtitle{
+	width:380px;
+	height:20px;
+	background-color:#CCC;
+	color:#000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+#denglu .detitle{
+	width:360px;
+	height:20px;
+	background-color:#CCC;
+	color:#000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+#denglu .table{
+	padding: 20px 0px 0px 0px;}
+#daxue .datitle{
+	width:220px;
+	height:20px;
+	background-color:#CCC;
+	color:#F99;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#myhome .mytitle{
+	width:380px;
+	height:20px;
+	background-color:#CCC;
+	color:#000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#software .sftitle{
+	width:380px;
+	height:20px;
+	background-color:#CCC;
+	color:#000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#vedio  .vtitle{
+	width:230px;
+	height:20px;
+	background-color:#CCC;
+	color:#000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#gaoz img{
+	margin:20px 0px 0px 0px;
+	width:200px;
+	height:150px;
+	float:left;
+	}
+#denglu table tr td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#denglu  a{
+	text-decoration:none;
+	color:#666;}
+#daxue .di{
+	width:150px;
+	height:150px;}
+#gaoz .txt{
+	margin:0px 20px 0px 0px;
+	padding:10px;
+	}
+#denglu .dl{
+	padding:0px 20px 0px 0px;
+	}
+#myhome .txt2{
+	margin:0px 20px 0px 0px;
+	}
+#myhome img{
+	float:left;
+	pading:20px 0px 0px 0px;}
+#software img{
+	float:left;
+	padding: 20px 0px 0px 0px;}
+#software .text4{
+	padding:10px 20px 0px 0px;
+	}
+#daxue  img{
+	float:right;
+	}
+#vedio img{
+	padding: 10px 0px 0px 0px;}
+#footer .lianjie{
+	float:left;
+	width:1000px;
+	height:20px;
+	text-align:left;
+	background-color:#FCF;
+	color:#333;}
+#footer .yqlianjie a{
+	color:#300;
+	text-align:center;
+	text-decoration:none;}
+#footer .footert{
+	text-align:center;
+	color:#666;
+	}
+p{
+	text-indent:2em;
+	}
+#web{
+   margin:0 auto;}
+#vedio .video{
+	margin: 5px 0px 0px 0px;}
+</style>
+<title>
+
+个人介绍</title>
+</head>
+
+<body  onload="txtScroll()">
+<div id="web">
+  <div id="top">
+    <div id="logo"><img src="图标/标志标准字组合.jpg" width="999" height="113" /></div>
+    <div id="dhl">
+     <ul>
+        <li><a href="#">我的首页</a></li>
+        <li><a href="河软展示.html" target="_blank">我的大学</a></li>
+        <li><a href="#">我的高中</a></li> 
+        <li><a href="#">我的家乡</a></li>
+        <li><a href="#">我的专业</a></li>
+        <li><a href="#">我的生活</a></li>
+        <li><a href="#">精彩视频</a></li>
+        <li><a href="#">网站新闻</a></li>
+        <li><a href="#">网站资源</a></li>
+        
+      </ul>
+      </div>
+  </div>
+  
+  
+  <div id="centerTop">
+    <img src="幻灯片.png" width="999" height="244" />
+    <div id="goodnews">
+      <center><form id="form1" name="ScrollForm" method="post" action="">
+        <label for="textfield"></label>
+        <input name="txtText" type="text" id="textfield" size="105" />
+      </form></center>
+    </div>
+  </div>
+  
+  
+  <div id="gaoz">
+    <div class="gtitle">
+      <h4>我的大学</h4>
+      
+  </div>
+  <img src="图片/河北软件.jpg" width="1000" height="750" alt="河北软件职业技术学院" />
+  <div class="txt">   <p>河北软件职业技术学院1972年建校，直属河北省教育厅，是河北省首家独立建制的以信息技术教育为主的高等职业院校，也是省内最大的信息技术高技能人才培养基地。是河北省唯一一所国家示范性软件职业技术学院建设单位、河北省重点建设示范性高职院校、河北省高职高专人才培养工作水平评估优秀院校、河北省首家单独招生试点单位、首批大学生创业教育示范学校、检查优秀学校。著名计算机专家、中国工程院院士倪光南先生为学院名誉院长。</p></div>
+  </div>
+  
+  <div id="denglu">
+    <div class="detitle">
+      <h4 align="center">会员登录</h4>
+    </div>
+    <div align="center">
+      <div class="table">
+        <table width="291" height="181" border="1" cellpadding="0" cellspacing="0">
+          <tr>
+            <th width="74" scope="col"><table width="291" height="181" border="1" cellpadding="5" cellspacing="1">
+              <tr></tr>
+              <tr>
+                <th width="74" scope="col">会员账号</th>
+                <th width="189" scope="col"><label for="username"></label>
+                  <input type="text" name="username" id="username" />                  <label for="textarea"></label></th>
+                </tr>
+              <tr>
+                <td>登录密码</td>
+                <td><label for="passwrod"></label>
+                   <input type="text" name="passwrod" id="passwrod" /></td>
+                </tr>
+              <tr>
+                <td>验证码</td>
+                <td><label for="yzm"></label>
+                  <input type="text" name="yzm" id="yzm" />                  <label for="textfield3"></label></td>
+                </tr>
+              <tr>
+                <td height="10"><a href="注册页面.html" target="_blank">会员注册</a></td>
+                <td><p><br />
+                    <input type="submit" name="denglu" id="denglu2" value="登录" />
+                    <input type="submit" name="zhuce" id="注册" value="注册" />
+                    <br />
+                  <br />
+                  </p></td>
+                </tr>
+            </table></th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p>&nbsp;</p></td>
+    </tr>
+    </table>
+  </div>
+  <div id="daxue">  
+    <div class="datitle">
+    <h4>个人介绍</h4>
+    <div class="js">
+      <h4 align="left">学校：河北软件学院<br/>
+        系别:软件工程系<br/>
+        班级:2016级JAVA班<br/>
+        学号:161307662<br/>
+        姓名:贾宝宝<br/>
+      </h4>
+    </div>
+      <br/>
+      <br/>
+  </video>
+      <div class="di"></div>
+    </div>
+  </div>
+  <div id="myhome">
+    <div class="mytitle">
+      <h4>我的家乡</h4>
+      <img src="图片/家乡.jpg" width="174" height="174" /><p> 长子县位于山西省东南部，上党盆地西侧，东距长治市区21公里，北距太原市234公里，距北京670公里。
+        
+        素有“中国青椒之乡”的美称，当地是中华民族发祥地之一，历史悠久，源远流长，是中国往昔尧王的故里、丹朱的封地、精卫的故乡、西燕的古都。2007年被评为中国千年古县。</p>
+      
+      <div class="txt3"><span class="txt2"></span></div>
+  <div class="txt2"></div>
+    </div>
+  </div>
+  <div id="software">
+    <div class="sftitle">
+      <h4>软件介绍</h4></div>
+    <img src="图片/java.png" width="166" height="178" /> 
+    <div class="txt4"><p>Java是一种可以撰写跨平台应用软件的面向对象的程序设计语言。Java 技术具有卓越的通用性、高效性、平台移植性和安全性，广泛应用于PC、数据中心、游戏控制台、科学超级计算机、移动电话和互联网，同时拥有全球最大的开发者专业社群。
+    Java是由Sun Microsystems公司于1995年5月推出的Java程序设计语言和Java平台</p></div>
+  </div>
+  <div id="vedio">
+    <div class="vtitle">
+      <h4>视频展示</h4>
+      <div class="video">
+        <video width="250" height="200" controls autoplay>
+        <source src="1.ogg" type="video/ogg">
+        <source src="1.mp4" type="video/mp4">
+        <source src="1.webm" type="video/webm">
+        <object data="1.mp4" width="250" height="200">
+          <embed width="250" height="200" src="1.swf">
+        </object>
+  <ideo>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="lianjie">友情链接</div>
+    <div class="yqlianjie"><a href="http:www.baidu.com" >网站地图</a> <a href="#">客户留言</a> <a href="#">在线订购</a> <a href="#">人才招聘</a> <a href="#">代理申请</a> <a href="#">链接申请</a></div>
+    <div class="footert">
+      京ICP备12005910号
+      奇虎传媒版权所有 2010-2017 保留所有权利 </div>
+  </div>
+</div>
+</body>
+</html>

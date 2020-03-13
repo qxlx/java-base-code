@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+body {
+	font-family:"微软雅黑"; 
+}
+#title,#logo,#main,#about {
+	width:700px;;
+	margin:0 auto;
+}
+#title {
+	color:#FFFFFF;
+	font-weight:bolder;
+	font-size:18px;
+	background-color:#FF6600;
+	height:40px;
+	line-height:40px;
+}
+#main li{
+	list-style:none;
+	height:35px;
+}
+#main .fwxy{
+	height:80px;
+}
+#main .txt {
+	height:20px;
+	width:150px;
+	border:#157782 1px solid;
+	background-color:#FFFFCC;
+}
+#main.day {
+	height:16px;
+	width:30px;
+}
+#main.btn {
+	border:1px #333 solid;
+	height:25px;
+	background-image:url(image/title.gif);
+	color:#FFFFFF;
+}
+#main .txt:hover {
+	background-color:#E0F9FC;
+}
+#about {
+	font-size:16px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background-color:#FF6600;
+}
+
+</style>
+</head>
+
+<body>
+<div id="logo">
+	<img src="image/logo.gif" width="250" height="40" />
+	<img src="image/reg.gif" width="250" height="40" />
+</div>
+<div id="title">用户免费注册页面</div>
+<div id="main">
+  <ul>
+    <form action="" method="get">
+      <li>
+        <label>会员账号：</label>
+        <input name="username" type="text" class="txt" />
+      </li>
+      <li>
+        <label>登录密码：</label>
+        <input name="password" type="password" class="txt" />
+      </li>
+      <li>
+        <label>确认密码：</label>
+        <input name="password" type="password" class="txt" />
+      </li>
+      <li>
+        <label>会员性别：</label>
+        <input name="rdoSex" type="radio" value="0" checked />
+        <img src="image/Male.gif" width="22" height="21" />
+        <input name="rdoSex" type="radio" value="1" />
+        <img src="image/Female.gif" width="23" height="21" /> 
+      </li>
+      <li>
+        <label>个人爱好：</label>
+        <input type="checkbox" value="sport" name="cbxHobby"/>运动
+        <input type="checkbox" value="chat" name="cbxHobby"/>聊天
+        <input type="checkbox" value="game" name="cbxHobby"/>游戏 
+      </li>
+      <li>
+        <label>出生日期：</label>
+        <select name="year">
+          <option value="1991">1991</option>
+          <option value="1992">1992</option>
+          <option value="1993">1993</option>
+          <option value="1994">1994</option>
+          <option value="1995">1995</option>
+          <option value="1996">1996</option>
+          <option value="1997">1997</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>	
+          </select>
+        年
+        <select name="month">
+          <option value="1" selected="selected">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>	
+          <option value="11">11</option>	
+          <option value="12">12</option>		
+          </select>
+        月
+        <input name="day" type="text" class="day" />
+      日 </li>
+      <li>
+        <input name="" type="button" class="btn" value="同意以下条款并提交注册信息" />
+        <input name="" type="reset" class="btn" value="重置" />
+      </li>
+      <li><img src="image/read.gif" width="35" height="26" />阅读《淘宝服务协议》 </li>
+      <li class="fwxy">
+        <textarea name="textarea" cols="70" rows="5">本协议由您与浙江淘宝网络有限公司共同缔结，本协议具有合同效力。
+本协议中协议双方合称协议方，浙江淘宝网络有限公司在协议中亦称为“淘宝”。本协议中“淘宝平台”指由浙江淘宝网络有限公司运营的网络交易平台，包括淘宝网，域名为 taobao.com.淘宝商城，域名为tmall.com；一淘网，域名为etao.com。                 
+       </textarea>
+      </li>
+    </form>
+  </ul>
+</div>
+<div id="about">Copyright © 2003-2011 Taobao.com 版权所有</div>
+</body>
+</html>

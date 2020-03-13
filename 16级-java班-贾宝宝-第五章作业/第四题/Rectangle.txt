@@ -1,0 +1,19 @@
+/*写一个类，声明 矩形的长度和宽度 以及设置和获取矩形周长，矩形面积的方法*/
+public class Rectangle {
+	private float length;
+	private float width;
+	private float perimeter;
+	private float area;
+	public void SetPerimeter(float x,float y){
+		perimeter = 2*x+2*y;
+	}
+	public float getPerimeter(){
+		return perimeter;
+	}
+	public void setArea(float x,float y ){
+		area = x*y;
+	}	
+	public float getArea(){
+		return area;
+	}
+}
